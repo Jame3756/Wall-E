@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene background="color: #000000">
+
+        <!--Camera-->
+        <a-entity position="0 0 15">
+            <a-camera></a-camera>
+        </a-entity>
+
+        <!--Body-->
+        <a-box
+        id="body"
+        color="#bfaf1f"
+        position="0 0.75 0"
+        width="1"
+        height="0.75"/>
+
+        <a-box
+        id="body"
+        color="#575757"
+        position="0 0.5 0"
+        width="1"
+        height="0.25"/>
+
+        <a-cylinder
+        color="#bfaf1f"
+        height="0.75"
+        radius="0.1"
+        position="0 .35 0"/>
+
+        <!--head-->
+
+        <a-box
+        id="head"
+        color="#575757"
+        position="0 0.5 0"
+        width="1.5"
+        height="0.55"/>
+
+        <a-box
+        id="head"
+        color="#575757"
+        position="0 0.25 1"
+        width="1.5"
+        height="0.1"/>
+
+        <a-box
+        id="head"
+        color="#575757"
+        position="0 -0.5 0"
+        width="1.5"
+        height="0.1"/>
+
+        <a-box
+        id="head"
+        color="#575757"
+        position="0.75 0.25 0"
+        width="0.1"
+        height="0.55"/>
+
+        <a-box
+        id="head"
+        color="#575757"
+        position="-1.5 0 0"
+        width="0.1"
+        height="0.55"/>
+
+        <a-sphere
+        color="#000000"
+        radius="0.18"
+        position="0.4 0 -0.5"/>
+
+        <a-sphere
+        color="#000000"
+        radius="0.18"
+        position="0.6 0 -0.02"/>
+
+    </a-scene>
+</body>
+
+</html>
